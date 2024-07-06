@@ -1,5 +1,5 @@
 # Verilog
-- 학교에서 진행한 베릴로그 수업하면서 만든 코드들
+- 학교에서 베릴로그 수업하면서 만든 코드들
 - Codes I made during a Verilog class at school
 
 # Tools
