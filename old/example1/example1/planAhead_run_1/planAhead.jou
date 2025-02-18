@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Tue Dec 24 02:48:31 2024
+# Process ID: 14492
+# Log file: C:/workspace/verilog/example1/example1/planAhead_run_1/planAhead.log
+# Journal file: C:/workspace/verilog/example1/example1/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/workspace/verilog/example1/example1/pa.fromNetlist.tcl
+set_property iostandard LVCMOS25 [get_ports [list a]]
+set_property iostandard LVTTL [get_ports [list y]]
+set_property iostandard LVTTL [get_ports [list b]]
+set_property iostandard LVTTL [get_ports [list a]]
+set_property package_pin "" [get_ports [list  a]]
+startgroup
+set_property package_pin L13 [get_ports a]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports b]
+endgroup
+save_constraints
